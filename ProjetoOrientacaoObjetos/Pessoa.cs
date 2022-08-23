@@ -15,7 +15,7 @@ namespace ProjetoOrientacaoObjetos
 
         public void ImplementaNome()
         {
-            Console.Write("Informe seu nome: ");
+            Console.Write("\nInforme seu nome: ");
             Nome = Console.ReadLine();
         }
 
