@@ -6,7 +6,9 @@ namespace ProjetoOrientacaoObjetos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Pessoa pessoa1 = new Pessoa();
+            pessoa1.Nome = "Fabio";
+            Console.WriteLine();
         }
     }
 }
