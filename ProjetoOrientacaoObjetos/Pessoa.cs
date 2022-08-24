@@ -31,7 +31,7 @@ namespace ProjetoOrientacaoObjetos
         }
         public void getDataNascimento()
         {
-            Console.WriteLine("Data de nascimento: " + this.DataNascimento.ToShortDateString());
+            Console.WriteLine("Data de nascimento: " + this.DataNascimento.ToLongDateString());
         }
         public void setCpf()
         {
