@@ -10,8 +10,8 @@ namespace ProjetoOrientacaoObjetos
     {
         public string Nome { get; set; }
         public string DataNascimento { get; set; }
-        public int Cpf { get; set; }
-        public int Telefone { get; set; }
+        public long Cpf { get; set; }
+        public long Telefone { get; set; }
 
         public void ImplementaNome()
         {
