@@ -4,33 +4,81 @@ namespace ProjetoOrientacaoObjetos
 {
     internal class Pessoa
     {
-        public string Nome { get; set; }
-        public string DataNascimento { get; set; }
-        public long Cpf { get; set; }
-        public long Telefone { get; set; }
+        String Nome;
+        DateTime DataNascimento;
+        String Cpf;
+        long Telefone;
 
-        public void ImplementaNome()
+        public Pessoa()
+        {
+
+        }
+
+        public void setNome()
         {
             Console.Write("\nInforme seu nome: ");
-            Nome = Console.ReadLine();
+            this.Nome = Console.ReadLine();
+        }
+        public void getNome()
+        {
+            Console.WriteLine("Nome: " + this.Nome);
         }
 
-        public void ImolementaDataNascimento()
+        public void setDataNascimento()
         {
             Console.Write("Informe sua data de nascimento: ");
-            DataNascimento = Console.ReadLine();
         }
+        public void getDataNascimento()
+        {
+            DataNascimento = DateTime.Parse(Console.ReadLine());
 
-        public void ImplementaCPF()
+        }
+        public void setCpf()
         {
             Console.Write("Informe seu cpf: ");
-            Cpf = int.Parse(Console.ReadLine());
         }
-
-        public void ImplementaTelefone()
+        public void getCpf()
+        {
+            Cpf = Console.ReadLine();
+        }
+        public void setTelefone()
         {
             Console.Write("Informe seu telefone: ");
+        }
+        public void getTelefone()
+        {
             Telefone = int.Parse(Console.ReadLine());
         }
+
+        ///////////////////////////////////
+
+        //public string Nome { get; set; }
+        //public string DataNascimento { get; set; }
+        //public long Cpf { get; set; }
+        //public long Telefone { get; set; }
+
+        //public void ImplementaNome()
+        //{
+        //    Console.Write("\nInforme seu nome: ");
+        //    Nome = Console.ReadLine();
+        //}
+
+        //public void ImolementaDataNascimento()
+        //{
+        //    Console.Write("Informe sua data de nascimento: ");
+        //    DataNascimento = Console.ReadLine();
+        //}
+
+        //public void ImplementaCPF()
+        //{
+        //    Console.Write("Informe seu cpf: ");
+        //    Cpf = int.Parse(Console.ReadLine());
+        //}
+
+        //public void ImplementaTelefone()
+        //{
+        //    Console.Write("Informe seu telefone: ");
+        //    Telefone = int.Parse(Console.ReadLine());
+        //}
     }
 }
