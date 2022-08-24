@@ -17,6 +17,7 @@ namespace ProjetoOrientacaoObjetos
             pessoa1.getTelefone();
 
             Console.ReadKey();
+            Console.WriteLine();
 
             Pessoa pessoa2 = new Pessoa();
             pessoa2.setNome();
@@ -29,6 +30,7 @@ namespace ProjetoOrientacaoObjetos
             pessoa2.getTelefone();
 
             Console.ReadKey();
+            Console.WriteLine();
 
             Pessoa pessoa3 = new Pessoa();
             pessoa3.setNome();
@@ -41,6 +43,7 @@ namespace ProjetoOrientacaoObjetos
             pessoa3.getTelefone();
 
             Console.ReadKey();
+            Console.WriteLine();
 
             ///////////////////////////////////
 

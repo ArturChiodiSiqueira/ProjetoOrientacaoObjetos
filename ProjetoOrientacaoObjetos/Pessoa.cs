@@ -27,27 +27,29 @@ namespace ProjetoOrientacaoObjetos
         public void setDataNascimento()
         {
             Console.Write("Informe sua data de nascimento: ");
+            this.DataNascimento = DateTime.Parse(Console.ReadLine());
         }
         public void getDataNascimento()
         {
-            DataNascimento = DateTime.Parse(Console.ReadLine());
-
+            Console.WriteLine("Data de nascimento: " + this.DataNascimento);
         }
         public void setCpf()
         {
             Console.Write("Informe seu cpf: ");
+            this.Cpf = Console.ReadLine();
         }
         public void getCpf()
         {
-            Cpf = Console.ReadLine();
+            Console.WriteLine("CPF: " + this.Cpf);
         }
         public void setTelefone()
         {
             Console.Write("Informe seu telefone: ");
+            this.Telefone = int.Parse(Console.ReadLine());
         }
         public void getTelefone()
         {
-            Telefone = int.Parse(Console.ReadLine());
+            Console.WriteLine("Telefone: " + this.Telefone);
         }
 
         ///////////////////////////////////
