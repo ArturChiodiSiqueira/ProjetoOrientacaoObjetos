@@ -16,6 +16,8 @@ namespace ProjetoOrientacaoObjetos
             pessoa1.setTelefone();
             pessoa1.getTelefone();
 
+            Console.ReadKey();
+
             Pessoa pessoa2 = new Pessoa();
             pessoa2.setNome();
             pessoa2.getNome();
@@ -25,6 +27,8 @@ namespace ProjetoOrientacaoObjetos
             pessoa2.getCpf();
             pessoa2.setTelefone();
             pessoa2.getTelefone();
+
+            Console.ReadKey();
 
             Pessoa pessoa3 = new Pessoa();
             pessoa3.setNome();
@@ -36,8 +40,10 @@ namespace ProjetoOrientacaoObjetos
             pessoa3.setTelefone();
             pessoa3.getTelefone();
 
+            Console.ReadKey();
+
             ///////////////////////////////////
-            
+
             //Pessoa pessoa1 = new Pessoa();
 
             //pessoa1.ImplementaNome();
