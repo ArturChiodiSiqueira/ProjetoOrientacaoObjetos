@@ -45,7 +45,7 @@ namespace ProjetoOrientacaoObjetos
         public void setTelefone()
         {
             Console.Write("Informe seu telefone: ");
-            this.Telefone = int.Parse(Console.ReadLine());
+            this.Telefone = long.Parse(Console.ReadLine());
         }
         public void getTelefone()
         {
