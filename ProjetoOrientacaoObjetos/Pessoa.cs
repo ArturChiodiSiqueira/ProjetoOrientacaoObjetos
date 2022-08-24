@@ -26,7 +26,7 @@ namespace ProjetoOrientacaoObjetos
 
         public void setDataNascimento()
         {
-            Console.Write("Informe sua data de nascimento: ");
+            Console.Write("Informe sua data de nascimento (dd/MM/yyyy): ");
             this.DataNascimento = DateTime.Parse(Console.ReadLine());
         }
         public void getDataNascimento()
